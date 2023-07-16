@@ -1,23 +1,23 @@
 "use client";
-import { Intro } from "@/app/Home/Intro";
-import { useRef } from "react";
 
 import { DecoderText } from "@/components/DecoderText";
 
 import TextRunner from "@/components/TextRunner";
-const disciplines = ["Hello", "world"];
 
 export default function Home() {
-  const intro = useRef();
   return (
-    <div className="flex flex-col w-full bg-black text-white min-h-screen">
-      <div className="">
-        <div className="text-3xl font-bold ">
-          <DecoderText text="Srajan Kumar" delay={300} />
+    <div>
+      <div className="flex sm:pb-32 pb-40 bg-gray-950 text-gray-200 justify-center flex-col w-full h-screen">
+        <div className="lg:px-72 md:px-32 sm:px-20 px-10">
+          <div className="tracking-wide text-gray-400 text-2xl font-gothamB ">
+            <DecoderText text="SRAJAN KUMAR" delay={300} />
+          </div>
+          <div className="absolute font-gothamB py-3 text-5xl">
+            <TextRunner />
+          </div>
         </div>
-        <Intro id="intro" sectionRef={intro} disciplines={disciplines} />
-        <TextRunner />
       </div>
+      <div>oashdfu9n</div>
     </div>
   );
 }

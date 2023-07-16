@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background: #d8d8d8;
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf");
+}
+
 @keyframes reveal {
   0% {
     transform: scale3d(0, 1, 1);
