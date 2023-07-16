@@ -101,3 +101,5 @@ export const DecoderText = memo(
 );
 
 DecoderText.displayName = "DecoderText";
+
+export default DecoderText;
