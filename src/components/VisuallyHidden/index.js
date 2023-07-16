@@ -27,3 +27,5 @@ export const VisuallyHidden = forwardRef(
     );
   }
 );
+
+VisuallyHidden.displayName = "VisuallyHidden";

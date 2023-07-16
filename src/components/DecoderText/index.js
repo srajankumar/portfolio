@@ -99,3 +99,5 @@ export const DecoderText = memo(
     );
   }
 );
+
+DecoderText.displayName = "DecoderText";
