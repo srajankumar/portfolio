@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  background: #d8d8d8;
+  background-color: black;
+  color: #cfcfcf;
 }
 
 @font-face {
@@ -31,4 +32,60 @@ body {
     transform: scale3d(0, 1, 1);
     transform-origin: right;
   }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 3px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4b515b;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5c636e;
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+
+  50% {
+    scale: 1 1.5;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}
+
+#blob {
+  background-color: white;
+  height: 34vmax;
+  aspect-ratio: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  border-radius: 50%;
+  z-index: -10;
+  background: linear-gradient(to right, aquamarine, mediumpurple);
+  animation: rotate 20s infinite;
+  opacity: 0.8;
+}
+
+#blur {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+  backdrop-filter: blur(12vmax);
 }
