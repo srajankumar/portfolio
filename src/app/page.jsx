@@ -11,6 +11,7 @@ export default function Home() {
   return (
     <div className="bg-transparent">
       <BlobComponent />
+
       <div className="flex sm:pb-32 pb-40 text-gray-200 justify-center flex-col w-full h-screen">
         <div className="lg:px-72 md:px-32 sm:px-20 px-10">
           <div className="tracking-wide text-gray-400 text-2xl font-gothamB ">
