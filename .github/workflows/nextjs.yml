@@ -90,6 +90,11 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          # Set the custom domain here
+          cname: srajan.dev
+          token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out
