@@ -1,6 +1,8 @@
+"use client";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// import DarkMode from "@/components/DarkMode";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      {/* <DarkMode /> */}
       <body className={inter.className}>{children}</body>
     </html>
   );
