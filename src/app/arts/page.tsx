@@ -1,5 +1,7 @@
 import "./arts.css";
 import Image from "next/image";
+import Footer from "@/components/Footer";
+
 const Arts = () => {
   return (
     <div>
@@ -15,101 +17,125 @@ const Arts = () => {
         </h1>
         {/* <p>{"A small collection of my works :)"}</p> */}
       </div>
-
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
+      <div className="bg-gradient-to-b pb-4 from-black to-[#f1f1f1] grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
         <div className="grid gap-4">
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
+              src="/arts/eight.jpeg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
+              src="/arts/six.jpg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
+              src="/arts/twenty_three.jpg"
               alt=""
             />
           </div>
         </div>
         <div className="grid gap-4">
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
+              src="/arts/fourteen.jpg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
+              src="/arts/twelve.jpeg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <div className="grid gap-4">
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-              alt=""
-            />
-          </div>
-          <div>
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
+              src="/arts/two.jpg"
               alt=""
             />
           </div>
         </div>
         <div className="grid gap-4">
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
+              src="/arts/thirteen.jpg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
+              src="/arts/one.jpeg"
               alt=""
             />
           </div>
           <div>
-            <img
+            <Image
+              width={500}
+              height={500}
               className="h-auto max-w-full rounded-lg"
-              src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
+              src="/arts/eleven.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div className="grid gap-4">
+          <div>
+            <Image
+              width={500}
+              height={500}
+              className="h-auto max-w-full rounded-lg"
+              src="/arts/seven.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <Image
+              width={500}
+              height={500}
+              className="h-auto max-w-full rounded-lg"
+              src="/arts/five.jpg"
+              alt=""
+            />
+          </div>
+          <div>
+            <Image
+              width={500}
+              height={500}
+              className="h-auto max-w-full rounded-lg"
+              src="/arts/six.jpg"
               alt=""
             />
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
