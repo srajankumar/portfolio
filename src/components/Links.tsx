@@ -64,11 +64,9 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
           <a
             href={href}
             className={cx(
-              "mr-1 inline-flex items-center space-x-1 text-gray-300 transition duration-200",
+              "mr-1 inline-flex items-center space-x-1 transition duration-200",
               isGradientUnderline && "gradient-underline no-underline",
-              isGradientUnderline &&
-                !noHighlight &&
-                "text-blue-400 hover:text-blue-300",
+              isGradientUnderline && !noHighlight,
               className
             )}
             target="_blank"
