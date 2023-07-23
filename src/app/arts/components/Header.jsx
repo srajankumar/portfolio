@@ -10,7 +10,6 @@ const Header = () => {
           <div className="aurora__item"></div>
         </div>
       </h1>
-      {/* <p>{"A small collection of my works :)"}</p> */}
     </div>
   );
 };

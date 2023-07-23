@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
-
 :root {
-  --clr-1: #00c2ff;
-  --clr-2: #33ff8c;
-  --clr-3: #ffc640;
-  --clr-4: #e54cff;
+  --clr-1: #7fffd4;
+  --clr-2: #7fffd4;
+  --clr-3: #9370d8;
+  --clr-4: #9370d8;
 
   --blur: 1rem;
   --fs: clamp(3rem, 8vw, 5rem);

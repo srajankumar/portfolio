@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-const Gallery1 = () => {
+const Gallery2 = () => {
   return (
-    <div className="bg-[#f1f1f1] grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
+    <div className="pb-4 grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
       <div className="grid gap-4">
         <div>
           <Image
@@ -123,4 +123,4 @@ const Gallery1 = () => {
   );
 };
 
-export default Gallery1;
+export default Gallery2;

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Gallery1 = () => {
   return (
-    <div className="bg-gradient-to-b pb-4 from-black to-[#f1f1f1] grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
+    <div className="pb-4 grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
       <div className="grid gap-4">
         <div>
           <Image
