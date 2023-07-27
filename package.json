@@ -9,24 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-three/drei": "^9.79.4",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "@types/three": "^0.154.0",
     "autoprefixer": "10.4.14",
     "classnames": "^2.3.2",
+    "drei": "^2.2.21",
+    "emailjs-com": "^3.2.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.10",
     "flowbite": "^1.7.0",
     "flowbite-react": "^0.5.0",
     "framer-motion": "^10.12.21",
+    "intersection-observer": "^0.12.2",
     "next": "13.4.10",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-feather": "^2.0.10",
+    "react-scroll": "^1.8.9",
     "react-simple-typewriter": "^5.0.1",
+    "react-three-fiber": "^6.0.13",
     "sass": "^1.63.6",
     "tailwindcss": "3.3.3",
+    "three": "^0.154.0",
     "typescript": "5.1.6"
   }
 }

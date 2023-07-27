@@ -1,20 +1,20 @@
 :root {
-  --clr-1: #7fffd4;
-  --clr-2: #7fffd4;
-  --clr-3: #9370d8;
-  --clr-4: #9370d8;
+  --clr-1: #00c2ff;
+  --clr-2: #33ff8c;
+  --clr-3: #ffc640;
+  --clr-4: #e54cff;
 
   --blur: 1rem;
-  --fs: clamp(3rem, 8vw, 5rem);
+  --fs: clamp(3rem, 8vw, 10px);
   --ls: clamp(-1.75px, -0.25vw, -3.5px);
 }
 
-.content {
+/* .content {
   text-align: center;
-}
+} */
 
 .title {
-  font-size: var(--fs);
+  /* font-size: 10px; */
   font-weight: 800;
   letter-spacing: var(--ls);
   position: relative;
