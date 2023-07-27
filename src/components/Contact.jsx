@@ -6,7 +6,7 @@ import emailjs from "emailjs-com";
 import BlobComponent from "@/components/BlobComponent";
 import { DecoderText } from "@/components/DecoderText";
 import "@/styles/contact.css";
-const Arts = () => {
+const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -278,4 +278,4 @@ const Arts = () => {
   );
 };
 
-export default Arts;
+export default Contact;

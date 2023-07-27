@@ -114,7 +114,7 @@ const Navbar = () => {
               >
                 about
               </Link>
-            </button>{" "}
+            </button>
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
               <Link
                 smooth={true}
@@ -124,20 +124,19 @@ const Navbar = () => {
               >
                 projects
               </Link>
-            </button>{" "}
-            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
-              <Linkk
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
-                href="arts"
-              >
-                arts
-              </Linkk>
-            </button>{" "}
+            </button>
+            <Linkk
+              className="transition duration-300 focus:underline hover:underline underline-offset-4 focus:underline-offset-8 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+              href="arts"
+            >
+              arts
+            </Linkk>
+
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 cursor-pointer"
                 to="contact"
               >
                 contact
