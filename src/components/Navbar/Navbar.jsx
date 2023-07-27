@@ -93,46 +93,56 @@ const Navbar = () => {
       </div>
       {/* Desktop */}
       <div className="fixed z-30 w-full md:grid hidden">
-        <nav className="flex justify-center py-8">
+        <nav className="flex justify-center py-8 backdrop-blur-sm">
           <div className="flex justify-center align-middle">
-            <Link
-              smooth={true}
-              duration={700}
-              className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 mr-5 cursor-pointer"
-              to="/"
-            >
-              home
-            </Link>
-            <Link
-              smooth={true}
-              duration={700}
-              className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 mr-5 cursor-pointer"
-              to="about"
-            >
-              about
-            </Link>
-            <Link
-              smooth={true}
-              duration={700}
-              className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 mr-5 cursor-pointer"
-              to="project"
-            >
-              projects
-            </Link>
-            <Linkk
-              className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 mr-5 cursor-pointer"
-              href="arts"
-            >
-              arts
-            </Linkk>
-            <Link
-              smooth={true}
-              duration={700}
-              className="bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 mr-5 cursor-pointer"
-              to="contact"
-            >
-              contact
-            </Link>
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Link
+                smooth={true}
+                duration={700}
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                to="/"
+              >
+                home
+              </Link>
+            </button>
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Link
+                smooth={true}
+                duration={700}
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                to="about"
+              >
+                about
+              </Link>
+            </button>{" "}
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Link
+                smooth={true}
+                duration={700}
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                to="project"
+              >
+                projects
+              </Link>
+            </button>{" "}
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Linkk
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                href="arts"
+              >
+                arts
+              </Linkk>
+            </button>{" "}
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Link
+                smooth={true}
+                duration={700}
+                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                to="contact"
+              >
+                contact
+              </Link>
+            </button>
           </div>
         </nav>
       </div>
