@@ -4,6 +4,7 @@ import { Canvas } from "react-three-fiber";
 import Blob from "@/components/Blobby";
 
 import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 import Link from "next/link";
 import Linkk from "@/components/Links";
@@ -52,9 +53,9 @@ const Contact = () => {
     <div className="h-screen flex items-center justify-center">
       <form
         onSubmit={handleSubmit}
-        className="  flex justify-between w-full mx-40 flex-wrap"
+        className="  flex justify-between w-full lg:mx-40 md:mx-14 flex-wrap"
       >
-        <div className="md:w-1/2 px-14 md:mt-0 md:py-0 py-10 w-full flex flex-col justify-center">
+        <div className="md:w-1/2 px-14 md:mt-0 md:py-0 py-5 w-full flex flex-col justify-center">
           {/* <div className="md:text-xl md:w-auto w-full font-normal">
             <div className="bg-black rounded-3xl px-10">
               <div className="content">
@@ -73,26 +74,28 @@ const Contact = () => {
           <h1 className="mb-5 font-gothamB text-4xl">
             <Slide top>Contact.</Slide>
           </h1>
-          <div className="pb-0.5">
+          {/* <div className="pb-0.5">
             <Slide bottom>
               {" "}
               Get in touch or shoot me an email directly on{" "}
             </Slide>
-          </div>{" "}
+          </div>{" "} */}
           <Slide bottom>
             <Linkk href="mailto:kumarsrajan02@gmail.com">
               kumarsrajan02@gmail.com
             </Linkk>
           </Slide>
-          <div className="w-full h-full">
-            <Canvas camera={{ position: cameraPosition }}>
-              <ambientLight intensity={0.5} />
-              <pointLight position={[10, 10, 10]} />
-              <Blob />
-            </Canvas>
-          </div>
+          <Fade>
+            <div className="w-full h-full">
+              <Canvas camera={{ position: cameraPosition }}>
+                <ambientLight intensity={0.5} />
+                <pointLight position={[10, 10, 10]} />
+                <Blob />
+              </Canvas>
+            </div>
+          </Fade>
         </div>
-        <div className="w-full flex-col md:w-1/2 md:px-5 px-0 items-center rounded-lg overflow-hidden flex relative">
+        <div className="w-full flex-col md:w-1/2 md:px-5 px-5 flex-wrap items-center rounded-lg flex relative">
           {/* <div className="flex flex-wrap pt-2 w-full md:w-auto flex-row">
             <Link
               href="https://github.com/srajankumar"
@@ -250,7 +253,7 @@ const Contact = () => {
               </svg>
             </Link>
           </div>{" "} */}
-          <div className="card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl p-10 flex h-fit flex-col w-[30rem] md:mt-0 relative mx-auto">
+          <div className=" flex-wrap w-full card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl p-10 flex h-fit flex-col md:mt-0 relative mx-auto">
             <div className="relative bg-transparent mb-6">
               <input
                 type="text"

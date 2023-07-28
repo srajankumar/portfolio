@@ -10,7 +10,7 @@ const About = () => {
     <div className="flex flex-col justify-center min-h-screen">
       <div className="md:px-20 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
         <div className="min-h-96 w-full flex flex-col">
-          <div className="bg-[#d1f2f9] bg-opacity-5 md:mx-5 md:mt-5 p-10 text-lg rounded-3xl">
+          <div className="bg-[#d1f2f9] bg-opacity-5 md:mx-5 md:mt-5 md:px-10 px-7 text-justify py-10 text-lg rounded-3xl">
             <h1 className="mb-5 font-gothamB text-4xl">
               <Slide top>About.</Slide>
             </h1>
