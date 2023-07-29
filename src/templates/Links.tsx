@@ -18,6 +18,7 @@ interface ExternalLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   noExternalLinkIcon?: boolean;
   noHighlight?: boolean;
   icon?: ReactNode;
+  _blank?: "y" | "n"; // Add _blank prop
 }
 
 const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
@@ -31,6 +32,7 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
       noExternalLinkIcon,
       noHighlight = false,
       icon,
+      _blank,
       ...otherProps
     }: ExternalLinkProps,
     ref
@@ -43,6 +45,8 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
         !noGradientUnderline
       ? true
       : false;
+
+    const targetAttribute = _blank === "y" ? "_blank" : undefined;
 
     return (
       <>
@@ -69,8 +73,8 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
               isGradientUnderline && !noHighlight,
               className
             )}
-            target="_blank"
-            rel="noopener noreferrer"
+            target={targetAttribute} // Use the targetAttribute here
+            rel={_blank === "y" ? "noopener noreferrer" : undefined} // Add rel attribute if _blank="y"
             ref={ref}
             {...otherProps}
           >
@@ -83,7 +87,11 @@ const ExternalLink = forwardRef<HTMLAnchorElement, ExternalLinkProps>(
         <style jsx>{`
           .gradient-underline :not(.anchor) {
             text-decoration: none;
-            background-image: linear-gradient(to right, #be185d, #1d4ed8);
+            background-image: linear-gradient(
+              to right,
+              aquamarine,
+              mediumpurple
+            );
             background-repeat: no-repeat;
             background-position: bottom left;
             background-size: 0% 2px;

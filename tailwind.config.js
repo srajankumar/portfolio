@@ -19,6 +19,7 @@ module.exports = {
       fontFamily: {
         gothamB: ["Gotham-Bold", "sans-serif"],
         gothamL: ["Gotham-Light", "sans-serif"],
+        gothamM: ["Gotham-Medium", "sans-serif"],
       },
     },
   },

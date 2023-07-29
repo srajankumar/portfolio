@@ -27,16 +27,24 @@ const About = () => {
               <Slide top>About.</Slide>
             </h1>
             <Slide bottom>
-              <p className="font-gothamL text-base">{para_one}</p>
+              <p className="font-gothamM text-base">{para_one}</p>
             </Slide>
             <Slide bottom>
-              <div className="font-gothamL text-base pt-5">
+              <div className="font-gothamM text-base pt-5">
                 {para_two}
-                <Link className="text-green-500 font-gothamB" href={link_one}>
+                <Link
+                  className="text-green-500 font-gothamB"
+                  _blank="y"
+                  href={link_one}
+                >
                   {link_text_one}
                 </Link>
                 {para_three}
-                <Link className="text-blue-400 font-gothamB" href={link_two}>
+                <Link
+                  className="text-blue-400 font-gothamB"
+                  href={link_two}
+                  _blank="y"
+                >
                   {link_text_two}
                 </Link>
               </div>

@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="mx-auto py-6 flex max-w-3xl flex-col items-center space-y-4 px-8 text-center">
+    <footer className="mx-auto font-gothamL py-6 flex max-w-3xl flex-col items-center space-y-4 px-8 text-center">
       <div className="flex items-center">
         Made on Earth with
         <svg

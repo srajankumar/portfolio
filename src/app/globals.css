@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  color: #f1f1f1;
+  color: whitesmoke;
 }
 
 @font-face {
@@ -15,6 +15,11 @@ body {
 @font-face {
   font-family: "Gotham-Light";
   src: url("../assets/fonts/Gotham-Font/Gotham-Light.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Medium";
+  src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf");
 }
 
 @keyframes reveal {

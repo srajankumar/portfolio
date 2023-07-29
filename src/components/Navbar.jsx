@@ -99,7 +99,7 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
                 to="/"
               >
                 home
@@ -109,7 +109,7 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
                 to="about"
               >
                 about
@@ -119,14 +119,14 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
                 to="project"
               >
                 projects
               </Link>
             </button>
             <Linkk
-              className="transition duration-300 focus:underline hover:underline underline-offset-4 focus:underline-offset-8 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+              className="transition duration-300 focus:underline hover:underline underline-offset-4 focus:underline-offset-8 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
               href="arts"
             >
               arts
@@ -136,7 +136,7 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center px-10 cursor-pointer"
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 cursor-pointer"
                 to="contact"
               >
                 contact
