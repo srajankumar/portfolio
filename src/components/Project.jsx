@@ -1,4 +1,4 @@
-import Project from "@/templates/Project";
+import Project from "../templates/Projects";
 
 const App = () => {
   const projects = [
