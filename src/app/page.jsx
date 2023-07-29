@@ -1,15 +1,11 @@
 "use client";
 import BlobComponent from "@/components/BlobComponent";
-import Link from "@/components/Links";
 import Footer from "@/components/Footer";
 
-// import { Canvas } from "@react-three/fiber";
-// import Blob from "@/components/Blob";
-
-import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
-import Intro from "@/components/Home/Intro";
+import Intro from "@/components/Intro";
 import Project from "@/components/Project";
 
 export default function Home() {
@@ -29,7 +25,7 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
-      <div className="md:visible invisible py-3">
+      <div className="md:visible invisible md:py-0 py-3">
         <Footer />
       </div>
     </div>

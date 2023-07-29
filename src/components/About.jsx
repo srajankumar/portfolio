@@ -1,50 +1,48 @@
 "use client";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import Link from "@/components/Links";
-import { DecoderText } from "@/components/DecoderText";
+import Link from "@/templates/Links";
 import Carousel from "nuka-carousel";
 import "@/styles/contact.css";
+
+const para_one =
+  "Hey, I'm Srajan Kumar, a curious Frontend developer, aiming to be a cool full-stack developer and also explore other tech stacks. I also love to do drawings, listen to music, read manga, manhwa and occasionally watch anime in my free time.";
+const para_two =
+  "I am a second-year Computer Science student from Sahyadri College of Engineering and Management, Mangaluru, India. I am also Web Lead of ";
+const para_three = ", Technical Committee Secretary of ";
+const link_one = "https://www.sosc.org.in/";
+const link_two =
+  "https://www.linkedin.com/company/iei-cse-sahyadri-student-chapter/";
+const link_text_one = "Sahyadri Open-Source Community";
+const link_text_two = "Institution of Engineers (India) Student Chapter";
+const resume = "";
+
 const About = () => {
   return (
     <div className="flex flex-col justify-center min-h-screen">
       <div className="md:px-20 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
         <div className="min-h-96 w-full flex flex-col">
-          {/* <div className="bg-[#d1f2f9] bg-opacity-5 md:mx-5 md:mt-5 md:px-10 px-7 text-justify py-10 text-lg rounded-3xl"> */}
           <div className=" px-7 text-justify py-10 text-lg rounded-3xl">
             <h1 className="mb-5 font-gothamB text-4xl">
               <Slide top>About.</Slide>
             </h1>
             <Slide bottom>
-              <p className="font-gothamL text-base">
-                Hey, I&apos;m Srajan Kumar, a curious Frontend developer, aiming
-                to be a cool full-stack developer and also explore other tech
-                stacks. I also love to do drawings, listen to music, read manga,
-                manhwa and ocassionally watch anime in my free time.
-              </p>
+              <p className="font-gothamL text-base">{para_one}</p>
             </Slide>
             <Slide bottom>
               <div className="font-gothamL text-base pt-5">
-                I am a second year Computer Science student from Sahyadri
-                College of Engineering and Management, Mangaluru, India. I am
-                also Web Lead of{" "}
-                <Link
-                  className="text-green-500 font-gothamB"
-                  href="https://www.sosc.org.in/"
-                >
-                  Sahyadri Open-Source Community
+                {para_two}
+                <Link className="text-green-500 font-gothamB" href={link_one}>
+                  {link_text_one}
                 </Link>
-                , Technical Committee Secretary of{" "}
-                <Link
-                  className="text-blue-400 font-gothamB"
-                  href="https://www.linkedin.com/company/iei-cse-sahyadri-student-chapter/"
-                >
-                  Institution of Engineers &#x28;India&#x29; Student Chapter
+                {para_three}
+                <Link className="text-blue-400 font-gothamB" href={link_two}>
+                  {link_text_two}
                 </Link>
               </div>
             </Slide>
             <Slide bottom>
-              <Link href="" className="mt-3 font-gothamB">
+              <Link href={resume} className="mt-3 font-gothamB">
                 resume
               </Link>
             </Slide>

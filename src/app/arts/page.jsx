@@ -1,5 +1,5 @@
 "use client";
-import { DecoderText } from "@/components/DecoderText";
+import { DecoderText } from "@/templates/DecoderText";
 import Image from "next/image";
 import BlobComponent from "@/components/BlobComponent";
 import Footer from "@/components/Footer";
