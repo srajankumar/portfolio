@@ -27,7 +27,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/eight.jpeg"
+                src="/assets/arts/eight.jpeg"
                 alt=""
               />
             </div>
@@ -36,7 +36,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/six.jpg"
+                src="/assets/arts/six.jpg"
                 alt=""
               />
             </div>
@@ -45,36 +45,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/twenty_three.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <Image
-                width={500}
-                height={500}
-                className="h-auto max-w-full rounded-lg"
-                src="/arts/fourteen.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <Image
-                width={500}
-                height={500}
-                className="h-auto max-w-full rounded-lg"
-                src="/arts/twelve.jpeg"
-                alt=""
-              />
-            </div>
-            <div>
-              <Image
-                width={500}
-                height={500}
-                className="h-auto max-w-full rounded-lg"
-                src="/arts/two.jpg"
+                src="/assets/arts/twenty_three.jpg"
                 alt=""
               />
             </div>
@@ -85,7 +56,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/thirteen.jpg"
+                src="/assets/arts/fourteen.jpg"
                 alt=""
               />
             </div>
@@ -94,7 +65,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/one.jpeg"
+                src="/assets/arts/twelve.jpeg"
                 alt=""
               />
             </div>
@@ -103,7 +74,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/eleven.jpg"
+                src="/assets/arts/two.jpg"
                 alt=""
               />
             </div>
@@ -114,7 +85,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/seven.jpg"
+                src="/assets/arts/thirteen.jpg"
                 alt=""
               />
             </div>
@@ -123,7 +94,7 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/five.jpg"
+                src="/assets/arts/one.jpeg"
                 alt=""
               />
             </div>
@@ -132,7 +103,36 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/arts/six.jpg"
+                src="/assets/arts/eleven.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/seven.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/five.jpg"
+                alt=""
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/six.jpg"
                 alt=""
               />
             </div>
