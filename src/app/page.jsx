@@ -7,11 +7,13 @@ import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Intro from "@/components/Intro";
 import Project from "@/components/Project";
+// import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
     <div className="bg-transparent">
       <BlobComponent />
+      {/* <Sidebar /> */}
       <Navbar />
       <section id="/">
         <Intro />
