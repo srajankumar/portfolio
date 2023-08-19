@@ -11,8 +11,7 @@ const para_two =
   "I am a second-year Computer Science student from Sahyadri College of Engineering and Management, Mangaluru, India. I am also Web Lead of ";
 const para_three = ", Technical Committee Secretary of ";
 const link_one = "https://www.sosc.org.in/";
-const link_two =
-  "https://www.linkedin.com/company/iei-cse-sahyadri-student-chapter/";
+const link_two = "https://iei-scem.vercel.app/";
 const link_text_one = "Sahyadri Open-Source Community";
 const link_text_two = "Institution of Engineers (India) Student Chapter";
 const resume = "";

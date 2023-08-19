@@ -68,20 +68,13 @@ const Contact = () => {
             </Linkk>
           </Slide>
           <Fade>
-            {/* <div className="w-full h-full">
-              <Canvas camera={{ position: cameraPosition }}>
-                <ambientLight intensity={0.5} />
-                <pointLight position={[10, 10, 10]} />
-                <Earth />
-              </Canvas>
-            </div> */}
             <div className="w-full">
               <div className="flex flex-wrap w-full md:w-auto py-1 flex-row">
                 <div className=" p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={0}>
                     <Link
                       href="https://github.com/srajankumar"
-                      className="hover:text-gray-700 ease-in transition duration-300"
+                      className="hover:text-gray-400 ease-in transition duration-100"
                       target="_blank"
                     >
                       <svg
@@ -105,7 +98,7 @@ const Contact = () => {
                 <div className=" p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={200}>
                     <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
+                      className="hover:text-gray-400 ease-in transition duration-100"
                       href="https://www.linkedin.com/in/kumarsrajan/"
                       target="_blank"
                     >
@@ -132,7 +125,7 @@ const Contact = () => {
                 <div className=" p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={400}>
                     <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
+                      className="hover:text-gray-400 ease-in transition duration-100"
                       href="https://www.instagram.com/withpainsimon/"
                       target="_blank"
                     >
@@ -167,7 +160,7 @@ const Contact = () => {
                 <div className=" p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={600}>
                     <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
+                      className="hover:text-gray-400 ease-in transition duration-100"
                       href="https://twitter.com/kumarsrajan02"
                       target="_blank"
                     >
@@ -176,14 +169,11 @@ const Contact = () => {
                         width="30"
                         height="30"
                         viewBox="0 0 24 24"
+                        className="px-0.5"
                       >
                         <path
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6c2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4c-.9-4.2 4-6.6 7-3.8c1.1 0 3-1.2 3-1.2z"
+                          fill="currentColor"
+                          d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584l-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"
                         />
                       </svg>
                     </Link>
@@ -192,35 +182,7 @@ const Contact = () => {
                 <div className=" p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={800}>
                     <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
-                      href="http://discordapp.com/users/withpainsimon#7119"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                      >
-                        <g
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                        >
-                          <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0-2 0m6 0a1 1 0 1 0 2 0a1 1 0 0 0-2 0" />
-                          <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833-1.667 3.5-3c.667-1.667.5-5.833-1.5-11.5c-1.457-1.015-3-1.34-4.5-1.5l-.972 1.923a11.913 11.913 0 0 0-4.053 0L9 4c-1.5.16-3.043.485-4.5 1.5c-2 5.667-2.167 9.833-1.5 11.5c.667 1.333 2 3 3.5 3c.5 0 2-2 2-3" />
-                          <path d="M7 16.5c3.5 1 6.5 1 10 0" />
-                        </g>
-                      </svg>
-                    </Link>
-                  </Fade>
-                </div>
-                <div className=" p-0 pt-[1rem] pr-[2rem]">
-                  <Fade bottom delay={1000}>
-                    <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
+                      className="hover:text-gray-400 ease-in transition duration-100"
                       href="https://dev.to/srajankumar"
                       target="_blank"
                     >
@@ -233,27 +195,6 @@ const Contact = () => {
                         <path
                           fill="currentColor"
                           d="M6 15h2.8l.75-.75v-4.5L8.8 9H6v6Zm1.15-1.15v-3.7H8.4v3.7H7.15Zm4.125 0v-1.3h1.3V11.4h-1.3v-1.25h2.05V9h-3.2v6l3.2-.025V13.85h-2.05Zm4.75-.75L14.95 9h-1.2l1.575 5.975h1.4L18.3 9h-1.2l-1.075 4.1ZM3 21V3h18v18H3Zm2-2h14V5H5v14Zm0 0V5v14Z"
-                        />
-                      </svg>
-                    </Link>
-                  </Fade>
-                </div>
-                <div className=" p-0 pt-[1rem] pr-[2rem]">
-                  <Fade bottom delay={1200}>
-                    <Link
-                      className="hover:text-gray-700 ease-in transition duration-300"
-                      href="https://stackoverflow.com/users/21259173/srajan"
-                      target="_blank"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          fill="currentColor"
-                          d="M17.36 20.2v-5.38h1.79V22H3v-7.18h1.8v5.38h12.56M6.77 14.32l.37-1.76l8.79 1.85l-.37 1.76l-8.79-1.85m1.16-4.21l.76-1.61l8.14 3.78l-.76 1.62l-8.14-3.79m2.26-3.99l1.15-1.38l6.9 5.76l-1.15 1.37l-6.9-5.75m4.45-4.25L20 9.08l-1.44 1.07l-5.36-7.21l1.44-1.07M6.59 18.41v-1.8h8.98v1.8H6.59Z"
                         />
                       </svg>
                     </Link>

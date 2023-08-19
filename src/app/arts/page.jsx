@@ -18,7 +18,7 @@ const Arts = () => {
       </nav>
       <div className="md:px-5 md:pt-5 p-2">
         <div className="px-5 pb-10 md:pt-5 pt-10 md:text-5xl text-4xl font-gothamB">
-          <DecoderText text="Reo Arts" delay={300} />
+          <DecoderText text="Reo Arts." delay={300} />
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4">
           <div className="grid gap-4">

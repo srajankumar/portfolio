@@ -3,6 +3,14 @@ import Project from "../templates/Projects";
 const App = () => {
   const projects = [
     {
+      title: "Hungry Hive",
+      description: "A MERN stack based recipe app",
+      tags: ["#mongodb", "#express", "#react", "#nodejs", "tailwindcss"],
+      imageSrc: "/assets/projects/hungry-hive.png",
+      sourcecode: "https://github.com/srajankumar/hungry-hive",
+      live: "",
+    },
+    {
       title: "Pull Quest",
       description:
         "A simple and fun quest to learn how to make a pull-request in GitHub",
@@ -13,19 +21,11 @@ const App = () => {
     },
     {
       title: "YouTube Clone",
-      description: "A dark-mode Youtube website Landing-page",
+      description: "A dark-mode YouTube website Landing-page",
       tags: ["#nextjs", "#tailwindcss"],
       imageSrc: "/assets/projects/youtube.png",
       sourcecode: "https://github.com/srajankumar/youtube-landingpage",
       live: "https://youtube-clone-xi-weld.vercel.app/",
-    },
-    {
-      title: "Noties",
-      description: "A simple note-taking app",
-      tags: ["#nextjs", "#tailwindcss"],
-      imageSrc: "/assets/projects/noties.png",
-      sourcecode: "https://github.com/srajankumar/noties",
-      live: "https://noties.vercel.app/",
     },
   ];
 
