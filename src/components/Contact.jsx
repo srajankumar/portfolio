@@ -1,8 +1,5 @@
 "use client";
-import { Vector3 } from "three";
-import { Canvas } from "react-three-fiber";
 import Link from "next/link";
-import Earth from "@/components/Earth";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import Linkk from "@/templates/Links";
@@ -10,8 +7,6 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import "@/styles/contact.css";
 const Contact = () => {
-  const cameraPosition = new Vector3(0, 0, 2);
-
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
