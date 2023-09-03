@@ -31,6 +31,6 @@
     "src/app/page.jsx",
     "src/app/layout.jsx",
     "src/components/About.jsx"
-  ],
+, "src/components/PostPreview.jsx"  ],
   "exclude": ["node_modules"]
 }
