@@ -5,10 +5,10 @@ const App = () => {
     {
       title: "Hungry Hive",
       description: "A MERN stack based recipe app",
-      tags: ["#mongodb", "#express", "#react", "#nodejs", "tailwindcss"],
+      tags: ["#mongodb", "#express", "#react", "#nodejs", "#tailwindcss"],
       imageSrc: "/assets/projects/hungry-hive.png",
       sourcecode: "https://github.com/srajankumar/hungry-hive",
-      live: "",
+      live: "https://hungryhive.vercel.app/",
     },
     {
       title: "Pull Quest",
