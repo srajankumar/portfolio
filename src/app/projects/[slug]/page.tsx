@@ -8,9 +8,21 @@ export default async function Post({ params }: { params: { slug: string } }) {
   const content = await markdownToHtml(post.content || "");
 
   return (
-    <div className="container mx-auto">
-      <main>
-        <div className="w-full h-16  text-white">
+    <div>
+      <div className="fixed -z-10 inset-0 overflow-hidden">
+        <img
+          src="/project/bg.png"
+          alt="bg"
+          className="object-cover hidden md:grid object-center h-full w-full"
+        />
+        <img
+          src="/project/bg-mobile.png"
+          alt="bg"
+          className="object-cover md:hidden object-center h-full w-full"
+        />
+      </div>
+      <main className="md:m-20 m-5">
+        <div className="w-full text-white">
           <p className="text-2xl">{post.title}</p>
           <p className="text-gray-400">{post.author}</p>
           <div
