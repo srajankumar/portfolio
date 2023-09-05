@@ -2,7 +2,7 @@
 
 title: "Hungry Hive"
 
-coverImage: "/project/hungry-hive.svg"
+coverImage: "/project/hungry-hive.png"
 
 date: "01-01-2027"
 

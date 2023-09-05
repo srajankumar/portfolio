@@ -2,8 +2,7 @@
 
 title: "Youtube Clone"
 
-# coverImage: "/project/yt-clone.png"
-coverImage: "/project/hungry-hive.svg"
+coverImage: "/project/yt-clone.png"
 
 date: "01-01-2027"
 

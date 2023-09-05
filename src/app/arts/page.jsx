@@ -28,7 +28,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/eight.jpeg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -37,7 +37,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/six.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -46,7 +46,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/twenty_three.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
           </div>
@@ -57,7 +57,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/fourteen.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -66,7 +66,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/twelve.jpeg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -75,7 +75,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/two.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
           </div>
@@ -86,7 +86,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/thirteen.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -95,7 +95,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/one.jpeg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -104,7 +104,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/eleven.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
           </div>
@@ -115,7 +115,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/seven.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -124,7 +124,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/five.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
             <div>
@@ -133,7 +133,7 @@ const Arts = () => {
                 height={500}
                 className="h-auto max-w-full rounded-lg"
                 src="/assets/arts/six.jpg"
-                alt=""
+                alt="reoarts-image"
               />
             </div>
           </div>

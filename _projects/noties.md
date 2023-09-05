@@ -2,8 +2,7 @@
 
 title: "Noties"
 
-# coverImage: "/project/noties.png"
-coverImage: "/project/hungry-hive.svg"
+coverImage: "/project/noties.png"
 
 date: "01-01-2027"
 

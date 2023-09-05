@@ -2,8 +2,7 @@
 
 title: "VPNN"
 
-# coverImage: "/project/vpnn.png"
-coverImage: "/project/hungry-hive.svg"
+coverImage: "/project/vpnn.png"
 
 date: "01-01-2027"
 

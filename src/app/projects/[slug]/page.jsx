@@ -37,7 +37,7 @@ function Post({ params }) {
       </div>
       <main className="md:mx-20 m-5">
         <div className="w-full text-white">
-          <p className="px-2 font-gothamM md:text-5xl text-3xl text-left pt-5 pb-10 md:py-10">
+          <p className="px-2 font-gothamM md:text-5xl text-3xl text-left pt-6 pb-10 md:py-10">
             {post.title}.
           </p>
           <img
