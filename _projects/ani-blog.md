@@ -2,7 +2,8 @@
 
 title: "AniBlog"
 
-coverImage: "/project/aniblog.png"
+# coverImage: "/project/aniblog.png"
+coverImage: "/project/hungry-hive.svg"
 
 date: "01-01-2027"
 

@@ -14,7 +14,9 @@ export default function PostPreview({ post }: { post: Items }) {
           {/* <p className="text-center font-gothamM md:text-5xl text-2xl pb-2 pt-5 md:py-5">
             {post.title}
           </p> */}
-          <img
+          <Image
+            width={500}
+            height={500}
             alt={`cover image for ${post.title}`}
             src={post.coverImage}
             className="w-screen hover:grayscale-0 md:grayscale transition duration-700"
