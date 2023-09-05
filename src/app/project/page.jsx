@@ -2,6 +2,7 @@ import { getAllPosts } from "../../lib/api";
 import PostPreview from "../../components/PostPreview";
 import Link from "next/link";
 import Footer from "@/components/Footer";
+
 export default function Blog() {
   const posts = getAllPosts(["title", "date", "excerpt", "coverImage", "slug"]);
 
@@ -28,12 +29,12 @@ export default function Blog() {
         />
       </div>
       <main>
-        <div className="md:px-5 md:text-center pb-5 md:pb-0 md:py-20 pt-10 md:text-5xl text-4xl font-gothamB">
+        <div className="md:px-20 md:pt-5 pt-10 md:text-5xl text-4xl font-gothamB">
           Projects.
         </div>
-        <div>
+        <div className="mt-10">
           {posts.map((post) => (
-            <div className="md:mb-20 my-5" key={post.slug}>
+            <div className="md:mb-20 mb-5" key={post.slug}>
               <PostPreview post={post} />
             </div>
           ))}

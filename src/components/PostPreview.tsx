@@ -9,13 +9,14 @@ type Items = {
 export default function PostPreview({ post }: { post: Items }) {
   return (
     <div>
-      <div>
+      <div className="md:px-20">
         <Link href={`/projects/${post.slug}`}>
-          <Image
+          {/* <p className="text-center font-gothamM md:text-5xl text-2xl pb-2 pt-5 md:py-5">
+            {post.title}
+          </p> */}
+          <img
             alt={`cover image for ${post.title}`}
             src={post.coverImage}
-            height={500}
-            width={500}
             className="w-screen hover:grayscale-0 md:grayscale transition duration-700"
           />
         </Link>
