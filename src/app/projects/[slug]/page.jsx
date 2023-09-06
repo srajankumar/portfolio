@@ -25,12 +25,12 @@ function Post({ params }) {
       </nav>
       <div className="fixed -z-10 inset-0 overflow-hidden">
         <img
-          src="/project/bg.png"
+          src="/assets/project/background/bg.png"
           alt="bg"
           className="object-cover hidden md:grid object-center h-full w-full"
         />
         <img
-          src="/project/bg-mobile.png"
+          src="/assets/project/background/bg-mobile.png"
           alt="bg"
           className="object-cover md:hidden object-center h-full w-full"
         />

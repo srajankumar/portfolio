@@ -2,21 +2,21 @@
 
 title: "VPNN"
 
-coverImage: "/project/vpnn.png"
+coverImage: "/assets/project/vpnn.png"
 
-date: "01-01-2027"
+date: "04-06-2023"
 
-gitHub: "https://github.com/srajankumar/hungry-hive"
+gitHub: "https://github.com/srajankumar/VPNN"
 
-live: "https://hungryhive.vercel.app/"
+live: "https://vpn-inky-iota.vercel.app/"
 
 description: "
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies."
+A simple VPN landing page UI."
 
 techStack:
-  - React
-  - Next.js
-  - Node.js
-  - PostgreSQL
+  - HTML5
+  - Bootstrap
+  - Vite.js
+  - Vercel
 
 ---

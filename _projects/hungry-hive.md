@@ -2,21 +2,24 @@
 
 title: "Hungry Hive"
 
-coverImage: "/project/hungry-hive.png"
+coverImage: "/assets/project/hungry-hive.png"
 
-date: "01-01-2027"
+date: "06-09-2023"
 
 gitHub: "https://github.com/srajankumar/hungry-hive"
 
 live: "https://hungryhive.vercel.app/"
 
 description: "
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies."
+Hungry Hive, a culinary delight powered by the MERN stack, invites you to embark on a flavorful journey. This innovative recipe application effortlessly facilitates recipe search, enabling you to discover the perfect dish for any occasion. Your treasured recipes find a home in your personal sanctuary, and sharing the joy of cooking with friends and fellow food enthusiasts is a breeze as you transform them into beautifully formatted PDFs. Hungry Hive isn't just an app; it's your culinary companion, designed to make your cooking journey extraordinary, offering a world of flavors and aromas at your fingertips."
 
 techStack:
+  - MongoDB
+  - Express.js
   - React
-  - Next.js
   - Node.js
-  - PostgreSQL
+  - Tailwind CSS
+  - Render
+  - Vercel
 
 ---

@@ -2,21 +2,20 @@
 
 title: "AniBlog"
 
-coverImage: "/project/aniblog.png"
+coverImage: "/assets/project/aniblog.png"
 
-date: "01-01-2027"
+date: "03-06-2023"
 
-gitHub: "https://github.com/srajankumar/hungry-hive"
+gitHub: "https://github.com/srajankumar/aniblog"
 
-live: "https://hungryhive.vercel.app/"
+live: "https://ani-blog.vercel.app/"
 
 description: "
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies."
+A blog website created for anime lovers to share their wonderful experience on the anime / manga world. (Created during learning Next.js)"
 
 techStack:
-  - React
   - Next.js
-  - Node.js
-  - PostgreSQL
+  - Tailwind CSS
+  - Vercel
 
 ---

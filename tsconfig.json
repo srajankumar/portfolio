@@ -30,7 +30,9 @@
     ".next/types/**/*.ts",
     "src/app/page.jsx",
     "src/app/layout.jsx",
-    "src/components/About.jsx"
-, "src/components/PostPreview.jsx"  ],
+    "src/components/About.jsx",
+    "src/components/PostPreview.jsx",
+    "src/app/projects/[slug]/page.jsx"
+  ],
   "exclude": ["node_modules"]
 }

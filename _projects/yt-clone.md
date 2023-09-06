@@ -1,22 +1,21 @@
 ---
 
-title: "Youtube Clone"
+title: "Youtube Landing Page Clone"
 
-coverImage: "/project/yt-clone.png"
+coverImage: "/assets/project/yt-clone.png"
 
-date: "01-01-2027"
+date: "12-05-2023"
 
-gitHub: "https://github.com/srajankumar/hungry-hive"
+gitHub: "https://github.com/srajankumar/youtube-landingpage"
 
-live: "https://hungryhive.vercel.app/"
+live: "https://youtube-clone-xi-weld.vercel.app/"
 
 description: "
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies."
+A dark - mode clone of YouTube landing page"
 
 techStack:
-  - React
   - Next.js
-  - Node.js
-  - PostgreSQL
+  - Tailwind CSS
+  - Vercel
 
 ---

@@ -9,7 +9,7 @@ type Items = {
 export default function PostPreview({ post }: { post: Items }) {
   return (
     <div>
-      <div className="md:px-20">
+      <div className="lg:px-5">
         <Link href={`/projects/${post.slug}`}>
           {/* <p className="text-center font-gothamM md:text-5xl text-2xl pb-2 pt-5 md:py-5">
             {post.title}

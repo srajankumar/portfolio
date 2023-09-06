@@ -6,14 +6,16 @@ import Navbar from "@/components/Navbar";
 import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Intro from "@/components/Intro";
-import Project from "@/components/ProjectSection/Project";
+import Project from "@/components/Project";
 // import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
     <div className="bg-transparent">
       <BlobComponent />
-      {/* <Sidebar /> */}
+      {/* <div className="hidden md:flex">
+        <Sidebar />
+      </div> */}
       <Navbar />
       <section id="/">
         <Intro />
