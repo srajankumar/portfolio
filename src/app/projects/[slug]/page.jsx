@@ -59,7 +59,7 @@ function Post({ params }) {
           <div className="grid grid-cols-2">
             <Link
               className="bg-white hover:text-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide flex items-center justify-center rounded-lg py-2 px-16 md:mr-5 mr-3 md:mt-5 mt-10 cursor-pointer"
-              href={post.live}
+              href={post.gitHub}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ title: "Pull Quest"
 
 coverImage: "/assets/project/pullquest.png"
 
-date: "27-06-2023"
+date: "31-07-2023"
 
 gitHub: "https://github.com/srajankumar/pullquest"
 
