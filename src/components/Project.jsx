@@ -8,26 +8,27 @@ const App = () => {
   const projects = [
     {
       title: "Hungry Hive",
-      description: "A MERN stack based recipe app",
+      description: "A MERN stack based recipe app.",
       tags: ["#mongodb", "#express", "#react", "#nodejs", "#tailwindcss"],
-      imageSrc: "/assets/projects/hungry-hive.png",
+      imageSrc: "/assets/project/main/hungry-hive.png",
       sourcecode: "https://github.com/srajankumar/hungry-hive",
       link: "/projects/hungry-hive",
     },
     {
       title: "Pull Quest",
       description:
-        "A simple and fun quest to learn how to make a pull-request in GitHub",
+        "A simple and fun quest to learn how to make a pull-request in GitHub.",
       tags: ["#nextjs", "#tailwindcss"],
-      imageSrc: "/assets/projects/pullquest.png",
+      imageSrc: "/assets/project/main/pullquest.png",
       sourcecode: "https://github.com/srajankumar/pullquest",
       link: "/projects/pull-quest",
     },
     {
       title: "QRby",
-      description: "A simple QR code generator",
+      description:
+        "A simple user-friendly QR code generator with download capabilities.",
       tags: ["#nextjs", "#tailwindcss"],
-      imageSrc: "/assets/projects/qrby.png",
+      imageSrc: "/assets/project/main/qrby.png",
       sourcecode: "https://github.com/srajankumar/qrby",
       link: "/projects/qrby",
     },
