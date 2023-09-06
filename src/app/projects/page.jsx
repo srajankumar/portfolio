@@ -1,5 +1,5 @@
 import { getAllPosts } from "../../lib/api";
-import PostPreview from "../../components/PostPreview";
+import Preview from "../../components/projectPreview";
 import Link from "next/link";
 import Footer from "@/components/Footer";
 
@@ -44,7 +44,7 @@ export default function Blog() {
         <div className="mt-10 grid md:grid-cols-2">
           {posts.map((post) => (
             <div className=" mb-5" key={post.slug}>
-              <PostPreview post={post} />
+              <Preview post={post} />
             </div>
           ))}
         </div>

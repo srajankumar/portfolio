@@ -1,5 +1,5 @@
-import { DecoderText } from "@/templates/DecoderText";
-import TextRunner from "@/templates/TextRunner";
+import { DecoderText } from "@/utils/DecoderText";
+import TextRunner from "@/utils/TextRunner";
 const Intro = () => {
   return (
     <div className="flex sm:pb-32 pb-40 justify-center flex-col w-full h-screen">

@@ -9,7 +9,7 @@ body {
 
 @font-face {
   font-family: "Gotham-Bold";
-  src: url("../assets/fonts/Gotham-Font/Gotham-Bold.otf");
+  src: url("../assets/fonts/Gotham-Font/GothamBold.ttf");
 }
 
 @font-face {
@@ -22,27 +22,7 @@ body {
   src: url("../assets/fonts/Gotham-Font/GothamMedium.ttf");
 }
 
-@keyframes reveal {
-  0% {
-    transform: scale3d(0, 1, 1);
-    transform-origin: left;
-  }
-
-  50% {
-    transform: scale3d(1, 1, 1);
-    transform-origin: left;
-  }
-
-  51% {
-    transform: scale3d(1, 1, 1);
-    transform-origin: right;
-  }
-
-  100% {
-    transform: scale3d(0, 1, 1);
-    transform-origin: right;
-  }
-}
+/* Scroll Bar */
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -62,6 +42,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #5c636e;
 }
+
+/* Background Blob */
 
 @keyframes rotate {
   from {

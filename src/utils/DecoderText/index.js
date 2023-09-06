@@ -1,4 +1,4 @@
-import { VisuallyHidden } from "@/templates/VisuallyHidden";
+import { VisuallyHidden } from "@/utils/VisuallyHidden";
 import { useReducedMotion, useSpring } from "framer-motion";
 import { memo, useEffect, useRef } from "react";
 import { delay } from "@/utils/delay";

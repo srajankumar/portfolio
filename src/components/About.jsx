@@ -1,9 +1,8 @@
 "use client";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import Link from "@/templates/Links";
+import Link from "@/utils/Links";
 import Carousel from "nuka-carousel";
-import "@/styles/contact.css";
 
 const para_one =
   "Hey, I'm Srajan Kumar, a curious Frontend developer, aiming to be a cool full-stack developer and also explore other tech stacks. I also love to do drawings, listen to music, read manga, manhwa and occasionally watch anime in my free time.";

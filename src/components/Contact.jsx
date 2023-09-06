@@ -2,10 +2,9 @@
 import Link from "next/link";
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
-import Linkk from "@/templates/Links";
+import Linkk from "@/utils/Links";
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import "@/styles/contact.css";
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -90,7 +89,7 @@ const Contact = () => {
                     </Link>
                   </Fade>
                 </div>
-                <div className=" p-0 pt-[1rem] pr-[2rem]">
+                <div className="p-0 pt-[1rem] pr-[2rem]">
                   <Fade bottom delay={200}>
                     <Link
                       className="hover:text-gray-400 ease-in transition duration-100"

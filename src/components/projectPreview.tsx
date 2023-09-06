@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -6,14 +5,11 @@ type Items = {
   [key: string]: string;
 };
 
-export default function PostPreview({ post }: { post: Items }) {
+export default function Preview({ post }: { post: Items }) {
   return (
     <div>
       <div className="lg:px-5">
         <Link href={`/projects/${post.slug}`}>
-          {/* <p className="text-center font-gothamM md:text-5xl text-2xl pb-2 pt-5 md:py-5">
-            {post.title}
-          </p> */}
           <img
             alt={`cover image for ${post.title}`}
             src={post.coverImage}

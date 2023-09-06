@@ -35,9 +35,9 @@ function Post({ params }) {
           className="object-cover md:hidden object-center h-full w-full"
         />
       </div>
-      <main className="md:mx-20 m-5">
+      <main className="md:mx-20 m-5 md:mt-0 ">
         <div className="w-full text-white">
-          <p className="px-2 font-gothamM md:text-5xl text-3xl text-left pt-6 pb-10 md:py-10">
+          <p className="px-2 font-gothamB md:text-5xl sm:text-4xl text-3xl text-left pt-6 pb-10 md:py-10">
             {post.title}.
           </p>
           <img
@@ -45,11 +45,12 @@ function Post({ params }) {
             src={post.coverImage}
             className="w-screen"
           />
-
           <p className="md:text-3xl text-2xl pt-5 font-gothamM">Description.</p>
-          <p className="md:py-5 py-3 tracking-wide">{post.description}</p>
+          <p className="md:py-5 py-3 font-gothamL tracking-wide">
+            {post.description}
+          </p>
           <p className="md:text-3xl text-2xl pt-2 font-gothamM">Tech Stack.</p>
-          <ul className="pt-3">
+          <ul className="font-gothamL pt-3">
             {post.techStack.map((tech, index) => (
               <li className="py-1" key={index}>
                 &#8227; {tech}
@@ -58,7 +59,7 @@ function Post({ params }) {
           </ul>
           <div className="grid grid-cols-2">
             <Link
-              className="bg-white hover:text-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide flex items-center justify-center rounded-lg py-2 px-16 md:mr-5 mr-3 md:mt-5 mt-10 cursor-pointer"
+              className="bg-white hover:text-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamM tracking-wide flex items-center justify-center rounded-lg py-2 px-16 md:mr-5 mr-3 md:mt-5 mt-10 cursor-pointer"
               href={post.gitHub}
               target="_blank"
             >
@@ -77,7 +78,7 @@ function Post({ params }) {
               GitHub
             </Link>
             <Link
-              className="bg-white hover:text-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide flex items-center justify-center rounded-lg py-2 px-16 md:ml-5 ml-3 md:mt-5 mt-10 cursor-pointer"
+              className="bg-white hover:text-gray-300 backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamM tracking-wide flex items-center justify-center rounded-lg py-2 px-16 md:ml-5 ml-3 md:mt-5 mt-10 cursor-pointer"
               href={post.live}
               target="_blank"
             >
