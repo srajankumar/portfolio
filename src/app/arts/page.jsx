@@ -132,7 +132,125 @@ const Arts = () => {
                 width={500}
                 height={500}
                 className="h-auto max-w-full rounded-lg"
-                src="/assets/arts/six.jpg"
+                src="/assets/arts/eighteen.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:px-5 px-4 pt-5">
+          <div className="grid gap-4">
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/three.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/four.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/nine.jpeg"
+                alt="reoarts-image"
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/twenty_four.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/fifteen.jpeg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/ten.jpeg"
+                alt="reoarts-image"
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/sixteen.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/seventeen.jpeg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/nineteen.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+          </div>
+          <div className="grid gap-4">
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/twenty.jpg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/twenty_one.jpeg"
+                alt="reoarts-image"
+              />
+            </div>
+            <div>
+              <Image
+                width={500}
+                height={500}
+                className="h-auto max-w-full rounded-lg"
+                src="/assets/arts/twenty_two.jpeg"
                 alt="reoarts-image"
               />
             </div>
