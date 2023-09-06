@@ -14,7 +14,7 @@ const link_one = "https://www.sosc.org.in/";
 const link_two = "https://iei-scem.vercel.app/";
 const link_text_one = "Sahyadri Open-Source Community";
 const link_text_two = "Institution of Engineers (India) Student Chapter";
-const resume = "";
+const resume = "srajan-resume.pdf";
 
 const About = () => {
   return (
@@ -49,7 +49,7 @@ const About = () => {
               </div>
             </Slide>
             <Slide bottom>
-              <Link href={resume} className="mt-3 font-gothamB">
+              <Link href={resume} target="_blank" className="mt-3 font-gothamB">
                 resume
               </Link>
             </Slide>
