@@ -28,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/app/page.jsx",
+    "src/app/page.tsx",
     "src/app/layout.jsx",
     "src/components/About.jsx",
     "src/components/PostPreview.jsx",
