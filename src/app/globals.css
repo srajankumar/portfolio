@@ -81,3 +81,46 @@ body {
   z-index: -20;
   backdrop-filter: blur(12vmax);
 }
+
+.circle-1 {
+  will-change: transform;
+  animation: circle-1-keyframes 13s ease-in-out infinite alternate;
+}
+
+.circle-2 {
+  will-change: transform;
+  animation: circle-2-keyframes 8s ease-in-out infinite alternate;
+}
+
+.circle-3 {
+  will-change: transform;
+  animation: circle-3-keyframes 18s ease-in-out infinite alternate;
+}
+
+@keyframes circle-1-keyframes {
+  0% {
+  }
+  100% {
+    transform: translateX(200px) translateY(50px);
+  }
+}
+
+@keyframes circle-2-keyframes {
+  0% {
+  }
+  100% {
+    transform: translateX(300px) translateY(-25px);
+  }
+}
+
+@keyframes circle-3-keyframes {
+  0% {
+  }
+  100% {
+    transform: translateX(250px) translateY(25px);
+  }
+}
+
+.will-change-opacity {
+  will-change: opacity;
+}

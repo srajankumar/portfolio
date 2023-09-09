@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import { getPostBySlug } from "../../../lib/api";
 import Link from "next/link";
+import BlobComponent from "@/components/BlobComponent";
 
 function Post({ params }) {
   const post = getPostBySlug(params.slug, [
@@ -15,6 +16,7 @@ function Post({ params }) {
 
   return (
     <div>
+      <BlobComponent />
       <nav className=" px-7 mx-auto md:px-5 md:pt-5 pt-2">
         <Link
           className="fixed z-10 right-0 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 md:mr-10 mr-6 md:mt-3 mt-10 cursor-pointer"
@@ -23,18 +25,6 @@ function Post({ params }) {
           back
         </Link>
       </nav>
-      <div className="fixed -z-10 inset-0 overflow-hidden">
-        <img
-          src="/assets/project/background/bg.png"
-          alt="bg"
-          className="object-cover hidden md:grid object-center h-full w-full"
-        />
-        <img
-          src="/assets/project/background/bg-mobile.png"
-          alt="bg"
-          className="object-cover md:hidden object-center h-full w-full"
-        />
-      </div>
       <main className="md:mx-20 m-5 md:mt-0 ">
         <div className="w-full text-white">
           <p className="px-2 font-gothamB md:text-5xl sm:text-4xl text-3xl text-left pt-6 pb-10 md:py-10">

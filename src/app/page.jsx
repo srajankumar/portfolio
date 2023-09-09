@@ -6,11 +6,13 @@ import Contact from "@/components/Contact";
 import About from "@/components/About";
 import Intro from "@/components/Intro";
 import Project from "@/components/Project";
+import Blob from "@/components/Blob";
 
 export default function Home() {
   return (
     <div className="bg-transparent">
       <BlobComponent />
+      {/* <Blob /> */}
       <Navbar />
       <section id="/">
         <Intro />
