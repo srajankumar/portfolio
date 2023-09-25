@@ -5,6 +5,8 @@ import Fade from "react-reveal/Fade";
 import Linkk from "@/utils/Links";
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Header from "@/utils/Header";
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -45,9 +47,9 @@ const Contact = () => {
         onSubmit={handleSubmit}
         className="flex justify-between w-full lg:mx-40 md:mx-14 flex-wrap"
       >
-        <div className="md:w-1/2 font-gothamL px-14 md:mt-0 md:py-0 py-5 w-full flex flex-col justify-center">
+        <div className="md:w-1/2 font-gothamL px-14 md:pr-14 md:pl-0 md:mt-0 md:py-0 py-5 w-full flex flex-col justify-center">
           <h1 className="mb-5 font-gothamB text-4xl">
-            <Slide top>Contact.</Slide>
+            <Header content="Contact." />
           </h1>
           <div className="pb-0.5 tracking-wide">
             <Slide bottom>Get in touch or shoot me an email directly on</Slide>
@@ -198,7 +200,7 @@ const Contact = () => {
             </div>
           </Fade>
         </div>
-        <div className="w-full font-gothamM flex-col md:w-1/2 md:px-5 px-5 flex-wrap items-center rounded-lg flex relative">
+        <div className="w-full font-gothamM flex-col md:w-1/2 flex-wrap items-center rounded-lg flex relative">
           <div className=" flex-wrap w-full card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl p-10 flex h-fit flex-col md:mt-0 relative mx-auto">
             <div className="relative bg-transparent mb-6">
               <input

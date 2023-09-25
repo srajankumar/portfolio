@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Linkk from "@/utils/Links";
 
+import Header from "@/utils/Header";
+
 const App = () => {
   const projects = [
     {
@@ -44,10 +46,10 @@ const App = () => {
 const Project = ({ projects }) => {
   return (
     <div>
-      <div className="container flex items-center justify-center min-h-screen px-2 md:px-0 py-24 mx-auto">
+      <div className="container flex items-center justify-center min-h-screen px-2 md:pl-10 md:pr-0 py-24 mx-auto">
         <div className="flex flex-col w-fit">
           <h1 className="mb-5 mx-5 md:mx-4 font-gothamB text-4xl">
-            <Slide top>Projects.</Slide>
+            <Header content="Projects." />
           </h1>
           <div className="flex flex-wrap md:justify-start justify-center w-fit">
             {projects.map((project, index) => (

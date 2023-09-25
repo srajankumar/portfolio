@@ -1,0 +1,11 @@
+.body {
+  p {
+    &:nth-of-type(1) {
+      .mask {
+        position: relative;
+        overflow: hidden;
+        display: inline-flex;
+      }
+    }
+  }
+}

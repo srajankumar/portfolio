@@ -1,9 +1,14 @@
 "use client";
+
+import styles from "./style.module.scss";
+import { useInView, motion } from "framer-motion";
+import { useRef } from "react";
+import { slideUp } from "./animation";
+
 import Slide from "react-reveal/Slide";
 import Fade from "react-reveal/Fade";
 import Link from "@/utils/Links";
 import Carousel from "nuka-carousel";
-import Header from "@/utils/Header";
 
 const para_one =
   "Hey, I'm Srajan Kumar, a curious Frontend developer, aiming to be a cool full-stack developer and also explore other tech stacks. I also love to do drawings, listen to music, read manga, manhwa and occasionally watch anime in my free time.";
@@ -17,22 +22,47 @@ const link_text_two = "Institution of Engineers (India) Student Chapter";
 const resume = "srajan-resume.pdf";
 
 const About = () => {
+  const phrase =
+    "Hey, I'm Srajan Kumar, a curious Frontend developer, aiming to be a cool full-stack developer and also explore other tech stacks. I also love to do drawings, listen to music, read manga, manhwa and occasionally watch anime in my free time.";
+  const description = useRef(null);
+  const isInView = useInView(description);
+
   return (
     <div className="flex flex-col justify-center min-h-screen">
       <div className="md:px-20 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
         <div className="min-h-96 w-full flex flex-col">
           <div className=" px-7 text-justify py-10 text-lg rounded-3xl">
             <h1 className="mb-5 font-gothamB text-4xl">
-              <Header content="About." />
+              <Slide top>About.</Slide>
             </h1>
+            {/* <Slide bottom>
+              <p className="font-gothamM text-base">{para_one}</p>
+            </Slide> */}
+            <div ref={description}>
+              <div className={styles.body}>
+                <p className="font-gothamM text-base">
+                  {phrase.split(" ").map((word, index) => {
+                    return (
+                      <span key={index} className={styles.mask}>
+                        <motion.span
+                          variants={slideUp}
+                          custom={index}
+                          animate={isInView ? "open" : "closed"}
+                          key={index}
+                        >
+                          {word}
+                        </motion.span>
+                      </span>
+                    );
+                  })}
+                </p>
+              </div>
+            </div>
             <Slide bottom>
-              <p className="font-gothamL text-base">{para_one}</p>
-            </Slide>
-            <Slide bottom>
-              <div className="font-gothamL text-base pt-5">
+              <div className="font-gothamM text-base pt-5">
                 {para_two}
                 <Link
-                  className="text-green-500 font-gothamM"
+                  className="text-green-500 font-gothamB"
                   _blank="y"
                   href={link_one}
                 >
@@ -40,7 +70,7 @@ const About = () => {
                 </Link>
                 {para_three}
                 <Link
-                  className="text-blue-400 font-gothamM"
+                  className="text-blue-400 font-gothamB"
                   href={link_two}
                   _blank="y"
                 >
@@ -49,7 +79,7 @@ const About = () => {
               </div>
             </Slide>
             <Slide bottom>
-              <Link href={resume} target="_blank" className="mt-3 font-gothamM">
+              <Link href={resume} target="_blank" className="mt-3 font-gothamB">
                 resume
               </Link>
             </Slide>
