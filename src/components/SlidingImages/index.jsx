@@ -27,14 +27,15 @@ const slider2 = [
     color: "#d4e3ec",
     src: "../assets/arts/fourteen.jpg",
   },
+
+  {
+    color: "#d7d4cf",
+    src: "../assets/arts/eight.jpeg",
+  },
   {
     color: "#e5e0e1",
 
     src: "../assets/arts/thirteen.jpg",
-  },
-  {
-    color: "#d7d4cf",
-    src: "../assets/arts/eight.jpeg",
   },
   {
     color: "#e1dad6",
@@ -55,31 +56,39 @@ export default function index() {
 
   return (
     <div ref={container} className={styles.slidingImages}>
-      <motion.div style={{ x: x1 }} className={styles.slider}>
-        {slider1.map((project, index) => {
-          return (
-            <div
-              key={index}
-              className={styles.project}
-              style={{ backgroundColor: project.color }}
-            >
-              <div className={styles.imageContainer}>
-                <Image
-                  fill={true}
-                  alt={"image"}
-                  src={`/images/${project.src}`}
-                />
+      <div>
+        <motion.div
+          style={{ x: x1 }}
+          className={`md:w-[120vw] md:left-[-10vw] sm:left-[-15vw] left-[-25vw] w-[50rem] ${styles.slider}`}
+        >
+          {slider1.map((project, index) => {
+            return (
+              <div
+                key={index}
+                className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.project}`}
+                style={{ backgroundColor: project.color }}
+              >
+                <div className={styles.imageContainer}>
+                  <Image
+                    fill={true}
+                    alt={"image"}
+                    src={`/images/${project.src}`}
+                  />
+                </div>
               </div>
-            </div>
-          );
-        })}
-      </motion.div>
-      <motion.div style={{ x: x2 }} className={styles.slider}>
+            );
+          })}
+        </motion.div>
+      </div>
+      <motion.div
+        style={{ x: x2 }}
+        className={`md:w-[120vw] md:left-[-10vw] left-[-10vw] sm:left-[10vw] w-[50rem] ${styles.slider}`}
+      >
         {slider2.map((project, index) => {
           return (
             <div
               key={index}
-              className={styles.project}
+              className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.project}`}
               style={{ backgroundColor: project.color }}
             >
               <div key={index} className={styles.imageContainer}>
