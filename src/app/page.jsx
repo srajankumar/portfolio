@@ -7,6 +7,8 @@ import About from "@/components/About";
 import Intro from "@/components/Intro";
 import Project from "@/components/Project";
 import Blob from "@/components/Blob";
+import SlidingImages from "@/components/SlidingImages";
+import Linkk from "@/utils/Links";
 
 export default function Home() {
   return (
@@ -23,6 +25,14 @@ export default function Home() {
       <section id="project">
         <Project />
       </section>
+      <div id="arts" className="overflow-hidden pt-24">
+        <SlidingImages />
+        <div className="flex font-gothamM tracking-wide md:px-24 md:mx-4 px-14 lg:px-52 lg:mx-2 w-full">
+          <Linkk href="https://www.instagram.com/reoarts/" _blank="y">
+            Reo Arts
+          </Linkk>
+        </div>
+      </div>
       <section id="contact">
         <Contact />
       </section>

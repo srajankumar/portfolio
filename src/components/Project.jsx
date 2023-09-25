@@ -89,7 +89,7 @@ const Project = ({ projects }) => {
             ))}
           </div>
           <div className="flex font-gothamM tracking-wide justify-center pt-10 w-full">
-            <Linkk href="projects" _blank="n">
+            <Linkk href="https://github.com/srajankumar" _blank="y">
               Excited to see more work?
             </Linkk>
           </div>

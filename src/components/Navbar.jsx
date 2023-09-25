@@ -124,12 +124,14 @@ const Navbar = () => {
                 projects
               </Link>
             </button>
-            <Linkk
+            <Link
+              smooth={true}
+              duration={700}
               className="transition duration-300 focus:underline hover:underline underline-offset-4 focus:underline-offset-8 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
-              href="arts"
+              to="arts"
             >
               arts
-            </Linkk>
+            </Link>
 
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
               <Link
