@@ -6,40 +6,40 @@ import Image from "next/image";
 const slider1 = [
   {
     color: "#e3e5e7",
-    src: "../assets/arts/seven.jpg",
+    src: "/assets/arts/seven.jpg",
   },
   {
     color: "#d6d7dc",
-    src: "../assets/arts/one.jpeg",
+    src: "/assets/arts/one.jpeg",
   },
   {
     color: "#e3e3e3",
-    src: "../assets/arts/four.jpg",
+    src: "/assets/arts/four.jpg",
   },
   {
     color: "#21242b",
-    src: "../assets/arts/three.jpg",
+    src: "/assets/arts/three.jpg",
   },
 ];
 
 const slider2 = [
   {
     color: "#d4e3ec",
-    src: "../assets/arts/fourteen.jpg",
+    src: "/assets/arts/fourteen.jpg",
   },
 
   {
     color: "#d7d4cf",
-    src: "../assets/arts/eight.jpeg",
+    src: "/assets/arts/eight.jpeg",
   },
   {
     color: "#e5e0e1",
 
-    src: "../assets/arts/thirteen.jpg",
+    src: "/assets/arts/thirteen.jpg",
   },
   {
     color: "#e1dad6",
-    src: "../assets/arts/twelve.jpeg",
+    src: "/assets/arts/twelve.jpeg",
   },
 ];
 
