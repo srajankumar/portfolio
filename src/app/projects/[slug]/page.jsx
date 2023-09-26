@@ -20,7 +20,7 @@ function Post({ params }) {
       <nav className=" px-7 mx-auto md:px-5 md:pt-5 pt-2">
         <Link
           className="fixed z-10 right-0 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 md:mr-10 mr-6 md:mt-3 mt-10 cursor-pointer"
-          href="/projects"
+          href="/"
         >
           back
         </Link>
