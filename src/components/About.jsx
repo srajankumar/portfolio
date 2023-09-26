@@ -6,9 +6,9 @@ import Carousel from "nuka-carousel";
 import Header from "@/utils/Header";
 
 const para_one =
-  "Hey, I'm Srajan Kumar, a curious Frontend developer, aiming to be a cool full-stack developer and also explore other tech stacks. I also love to do drawings, listen to music, read manga, manhwa and occasionally watch anime in my free time.";
+  "Hello there, I'm Srajan Kumar, a curious frontend developer with aspirations of becoming a cool full-stack developer. I have a passion for exploring new technology stacks, and when I'm not coding, you can often find me indulging in my hobbies of drawing and watching anime.";
 const para_two =
-  "I am a second-year Computer Science student from Sahyadri College of Engineering and Management, Mangaluru, India. I am also Web Lead of ";
+  "I am a second-year Computer Science student from Sahyadri College of Engineering and Management, Mangaluru, India. I am also web lead at ";
 const para_three = ", Technical Committee Secretary of ";
 const link_one = "https://www.sosc.org.in/";
 const link_two = "https://iei-scem.vercel.app/";
@@ -19,9 +19,9 @@ const resume = "srajan-resume.pdf";
 const About = () => {
   return (
     <div className="flex flex-col justify-center min-h-screen">
-      <div className="md:px-20 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
+      <div className="md:px-20 pb-5 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
         <div className="min-h-96 w-full flex flex-col">
-          <div className=" px-7 text-justify py-10 text-lg rounded-3xl">
+          <div className=" px-7 text-justify text-lg rounded-3xl">
             <h1 className="mb-5 font-gothamB text-4xl">
               <Header content="About." />
             </h1>
@@ -38,14 +38,14 @@ const About = () => {
                 >
                   {link_text_one}
                 </Link>
-                {para_three}
+                {/* {para_three}
                 <Link
                   className="text-blue-400 font-gothamM"
                   href={link_two}
                   _blank="y"
                 >
                   {link_text_two}
-                </Link>
+                </Link> */}
               </div>
             </Slide>
             <Slide bottom>
@@ -70,33 +70,65 @@ const About = () => {
             speed={1500}
             withoutControls={true}
           >
-            <div className="  text-orange-600 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="  text-orange-600 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
-                viewBox="0 0 24 24"
+                viewBox="0 0 128 128"
               >
                 <path
-                  fill="currentColor"
-                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718l10.059.003l.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426l-2.91.804l-2.955-.81l-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443l.744-8.157H8.531z"
+                  fill="#E44D26"
+                  d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198l-45.019 12.48z"
+                />
+                <path
+                  fill="#F16529"
+                  d="m64 116.8l36.378-10.086l8.559-95.878H64z"
+                />
+                <path
+                  fill="#EBEBEB"
+                  d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692l3.382 37.927H64zm0 35.743l-.061.017l-15.327-4.14l-.979-10.975H33.816l1.928 21.609l28.193 7.826l.063-.017z"
+                />
+                <path
+                  fill="#fff"
+                  d="M63.952 52.455v13.763h16.947l-1.597 17.849l-15.35 4.143v14.319l28.215-7.82l.207-2.325l3.234-36.233l.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092l.628-6.978l.329-3.692z"
                 />
               </svg>
             </div>
-            <div className="  text-blue-600 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="  text-blue-600 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
-                viewBox="0 0 24 24"
+                viewBox="0 0 128 128"
               >
                 <path
-                  fill="currentColor"
-                  d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622l10.125.002l-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523l-2.91.804l-2.956-.81l-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z"
+                  fill="#1572B6"
+                  d="M18.814 114.123L8.76 1.352h110.48l-10.064 112.754l-45.243 12.543l-45.119-12.526z"
+                />
+                <path
+                  fill="#33A9DC"
+                  d="m64.001 117.062l36.559-10.136l8.601-96.354h-45.16v106.49z"
+                />
+                <path
+                  fill="#fff"
+                  d="M64.001 51.429h18.302l1.264-14.163H64.001V23.435h34.682l-.332 3.711l-3.4 38.114h-30.95V51.429z"
+                />
+                <path
+                  fill="#EBEBEB"
+                  d="m64.083 87.349l-.061.018l-15.403-4.159l-.985-11.031H33.752l1.937 21.717l28.331 7.863l.063-.018v-14.39z"
+                />
+                <path
+                  fill="#fff"
+                  d="m81.127 64.675l-1.666 18.522l-15.426 4.164v14.39l28.354-7.858l.208-2.337l2.406-26.881H81.127z"
+                />
+                <path
+                  fill="#EBEBEB"
+                  d="M64.048 23.435v13.831H30.64l-.277-3.108l-.63-7.012l-.331-3.711h34.646zm-.047 27.996v13.831H48.792l-.277-3.108l-.631-7.012l-.33-3.711h16.447z"
                 />
               </svg>
             </div>
-            <div className="  text-yellow-300 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="  text-yellow-300 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -109,23 +141,57 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-blue-700 ease-in transition duration-300 p-0 pt-5 pr-5">
-              <svg viewBox="0 0 128 128" width="40" height="40">
+            <div className="text-blue-700 ease-in transition duration-300 p-0 pr-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 128 128"
+              >
                 <path
-                  fill="currentColor"
-                  d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zM64 88.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z"
-                ></path>
+                  fill="#659AD3"
+                  d="M115.4 30.7L67.1 2.9c-.8-.5-1.9-.7-3.1-.7c-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.4 1 3.5l106.8-62c-.6-1.2-1.5-2.1-2.4-2.7z"
+                />
+                <path
+                  fill="#03599C"
+                  d="M10.7 95.3c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7c1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c0-.9-.1-1.9-.6-2.8l-106.6 62z"
+                />
+                <path
+                  fill="#fff"
+                  d="M85.3 76.1C81.1 83.5 73.1 88.5 64 88.5c-13.5 0-24.5-11-24.5-24.5s11-24.5 24.5-24.5c9.1 0 17.1 5 21.3 12.5l13-7.5c-6.8-11.9-19.6-20-34.3-20c-21.8 0-39.5 17.7-39.5 39.5s17.7 39.5 39.5 39.5c14.6 0 27.4-8 34.2-19.8l-12.9-7.6z"
+                />
               </svg>
             </div>
-            <div className="text-pink-900 ease-in transition duration-300 p-0 pt-5 pr-5">
-              <svg width="40" height="40" viewBox="0 0 128 128">
+            <div className="ease-in transition duration-300 p-0 pr-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 32 32"
+              >
                 <path
-                  fill="currentColor"
-                  d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6zM82 66v-4h5v-5h5v5h5v4h-5v5h-5v-5h-5zm3.3-14C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5zM115 66h-5v5h-4v-5h-6v-4h6v-5h4v5h5v4z"
-                ></path>
+                  fill="#659ad2"
+                  d="M29 10.232a2.387 2.387 0 0 0-.318-1.244a2.451 2.451 0 0 0-.936-.879q-5.194-2.868-10.393-5.733a2.642 2.642 0 0 0-2.763.024c-1.378.779-8.275 4.565-10.331 5.706A2.287 2.287 0 0 0 3 10.231V21.77a2.4 2.4 0 0 0 .3 1.22a2.434 2.434 0 0 0 .954.9c2.056 1.141 8.954 4.927 10.332 5.706a2.642 2.642 0 0 0 2.763.026q5.19-2.871 10.386-5.733a2.444 2.444 0 0 0 .955-.9a2.4 2.4 0 0 0 .3-1.22V10.232"
+                />
+                <path
+                  fill="#00599c"
+                  d="M28.549 23.171a2.126 2.126 0 0 0 .147-.182a2.4 2.4 0 0 0 .3-1.22V10.232a2.387 2.387 0 0 0-.318-1.244c-.036-.059-.089-.105-.13-.16L16 16Z"
+                />
+                <path
+                  fill="#004482"
+                  d="M28.549 23.171L16 16L3.451 23.171a2.435 2.435 0 0 0 .809.72c2.056 1.141 8.954 4.927 10.332 5.706a2.642 2.642 0 0 0 2.763.026q5.19-2.871 10.386-5.733a2.43 2.43 0 0 0 .808-.719Z"
+                />
+                <path
+                  fill="#fff"
+                  d="M19.6 18.02a4.121 4.121 0 1 1-.027-4.087l3.615-2.073A8.309 8.309 0 0 0 7.7 16a8.216 8.216 0 0 0 1.1 4.117a8.319 8.319 0 0 0 14.411-.017L19.6 18.02"
+                />
+                <path
+                  fill="#fff"
+                  d="M24.076 15.538h-.926v-.921h-.925v.921h-.926v.923h.926v.92h.925v-.92h.926v-.923zm3.473 0h-.926v-.921h-.926v.921h-.926v.923h.926v.92h.926v-.92h.926v-.923z"
+                />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -154,7 +220,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -193,7 +259,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-blue-300 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-blue-300 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -206,7 +272,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -219,7 +285,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-purple-500 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-purple-500 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -232,7 +298,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-blue-400 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-blue-400 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -245,7 +311,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-blue-500 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-blue-500 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -266,20 +332,20 @@ const About = () => {
                 </g>
               </svg>
             </div>
-            <div className="text-orange-700 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-orange-700 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
                 height="40"
-                viewBox="0 0 16 16"
+                viewBox="0 0 128 128"
               >
                 <path
-                  fill="currentColor"
-                  d="M15.698 7.287L8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45l1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025a1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"
+                  fill="#F34F29"
+                  d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314c2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295c3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 0 1-13.683 0a9.677 9.677 0 0 1-2.105-10.521L68.574 47.933l-.002 34.341a9.708 9.708 0 0 1 2.559 1.828c3.778 3.777 3.778 9.898 0 13.683c-3.779 3.777-9.904 3.777-13.679 0c-3.778-3.784-3.778-9.905 0-13.683a9.65 9.65 0 0 1 3.167-2.11V47.333a9.581 9.581 0 0 1-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333L3.264 58.123a8.133 8.133 0 0 0 0 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 0 0-.001-11.501z"
                 />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -296,7 +362,36 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 256 384"
+              >
+                <path
+                  fill="#0ACF83"
+                  d="M64 384c35.328 0 64-28.672 64-64v-64H64c-35.328 0-64 28.672-64 64s28.672 64 64 64Z"
+                />
+                <path
+                  fill="#A259FF"
+                  d="M0 192c0-35.328 28.672-64 64-64h64v128H64c-35.328 0-64-28.672-64-64Z"
+                />
+                <path
+                  fill="#F24E1E"
+                  d="M0 64C0 28.672 28.672 0 64 0h64v128H64C28.672 128 0 99.328 0 64Z"
+                />
+                <path
+                  fill="#FF7262"
+                  d="M128 0h64c35.328 0 64 28.672 64 64s-28.672 64-64 64h-64V0Z"
+                />
+                <path
+                  fill="#1ABCFE"
+                  d="M256 192c0 35.328-28.672 64-64 64s-64-28.672-64-64s28.672-64 64-64s64 28.672 64 64Z"
+                />
+              </svg>
+            </div>
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -306,7 +401,7 @@ const About = () => {
                 <path fill="currentColor" d="m12 1l12 21H0L12 1Z" />
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -352,7 +447,7 @@ const About = () => {
                 </g>
               </svg>
             </div>
-            <div className="ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -420,7 +515,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-white ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-white ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -433,7 +528,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-green-600 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-green-600 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"
@@ -446,7 +541,7 @@ const About = () => {
                 />
               </svg>
             </div>
-            <div className="text-pink-500 ease-in transition duration-300 p-0 pt-5 pr-5">
+            <div className="text-pink-500 ease-in transition duration-300 p-0 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="40"

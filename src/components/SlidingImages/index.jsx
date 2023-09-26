@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 import styles from "./style.module.scss";
 import Image from "next/image";
@@ -43,7 +43,8 @@ const slider2 = [
   },
 ];
 
-export default function index() {
+function Index() {
+  // Rename index to Index
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -108,3 +109,5 @@ export default function index() {
     </div>
   );
 }
+
+export default Index;

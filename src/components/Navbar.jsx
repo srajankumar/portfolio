@@ -124,14 +124,17 @@ const Navbar = () => {
                 projects
               </Link>
             </button>
-            <Link
-              smooth={true}
-              duration={700}
-              className="transition duration-300 focus:underline hover:underline underline-offset-4 focus:underline-offset-8 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
-              to="arts"
-            >
-              arts
-            </Link>
+
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Link
+                smooth={true}
+                duration={700}
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
+                to="arts"
+              >
+                arts
+              </Link>
+            </button>
 
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
               <Link

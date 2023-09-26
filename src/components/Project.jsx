@@ -46,14 +46,14 @@ const App = () => {
 const Project = ({ projects }) => {
   return (
     <div>
-      <div className="container flex items-center justify-center min-h-screen px-2 md:pl-10 md:pr-0 py-24 mx-auto">
+      <div className="lg:px-[10%] container flex items-center justify-center min-h-screen px-2 py-24 mx-auto">
         <div className="flex flex-col w-fit">
           <h1 className="mb-5 mx-5 md:mx-4 font-gothamB text-4xl">
             <Header content="Projects." />
           </h1>
-          <div className="flex flex-wrap md:justify-start justify-center w-fit">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 md:justify-start justify-center w-fit">
             {projects.map((project, index) => (
-              <div className="p-4 w-96" key={index}>
+              <div className="p-4 w-full" key={index}>
                 <Slide bottom delay={index * 200}>
                   <Tilt>
                     <Link href={project.link}>
