@@ -3,17 +3,12 @@
   flex-direction: column;
   gap: 3vw;
   position: relative;
-  background-color: transparent;
   z-index: 1;
   .slider {
     display: flex;
     position: relative;
     gap: 3vw;
-    // width: 120vw;
-    // left: -10vw;
-    .project {
-      //   width: 25%;
-      //   height: 70vh;
+    .art {
       display: flex;
       align-items: center;
       justify-content: center;

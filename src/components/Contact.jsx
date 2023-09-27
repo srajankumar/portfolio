@@ -200,8 +200,8 @@ const Contact = () => {
             </div>
           </Fade>
         </div>
-        <div className="w-full font-gothamM flex-col md:w-1/2 flex-wrap items-center rounded-lg flex relative">
-          <div className=" flex-wrap w-full card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl p-10 flex h-fit flex-col md:mt-0 relative mx-auto">
+        <div className="w-full font-gothamM flex-col md:w-1/2 mt-0 md:mt-0 sm:mt-5 flex-wrap items-center rounded-lg px-6 md:px-0 flex relative">
+          <div className=" flex-wrap w-full card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl px-9 md:px-10 py-10 md:p-10 flex h-fit flex-col md:mt-0 relative md:mx-auto">
             <div className="relative bg-transparent mb-6">
               <input
                 type="text"

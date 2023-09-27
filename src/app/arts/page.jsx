@@ -11,7 +11,7 @@ const Arts = () => {
       <nav>
         <Link
           className="fixed right-0 bg-white backdrop-filter backdrop-blur-lg bg-opacity-10 hover:bg-opacity-5 transition duration-300 text-white font-gothamB tracking-wide w-20 flex items-center justify-center rounded-full py-2 px-16 md:mr-10 mr-6 md:mt-8 mt-12 cursor-pointer"
-          href="/"
+          href="/#arts"
         >
           back
         </Link>

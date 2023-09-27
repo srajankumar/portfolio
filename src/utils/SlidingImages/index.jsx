@@ -5,46 +5,36 @@ import Image from "next/image";
 
 const slider1 = [
   {
-    color: "#e3e5e7",
-    src: "../../assets/arts/seven.jpg",
+    src: "seven.jpg",
   },
   {
-    color: "#d6d7dc",
-    src: "../../assets/arts/one.jpeg",
+    src: "one.jpeg",
   },
   {
-    color: "#e3e3e3",
-    src: "../../assets/arts/four.jpg",
+    src: "four.jpg",
   },
   {
-    color: "#21242b",
-    src: "../../assets/arts/three.jpg",
+    src: "three.jpg",
   },
 ];
 
 const slider2 = [
   {
-    color: "#d4e3ec",
-    src: "../../assets/arts/fourteen.jpg",
+    src: "fourteen.jpg",
   },
 
   {
-    color: "#d7d4cf",
-    src: "../../assets/arts/eight.jpeg",
+    src: "eight.jpeg",
   },
   {
-    color: "#e5e0e1",
-
-    src: "../../assets/arts/thirteen.jpg",
+    src: "thirteen.jpg",
   },
   {
-    color: "#e1dad6",
-    src: "../../assets/arts/twelve.jpeg",
+    src: "twelve.jpeg",
   },
 ];
 
 function Index() {
-  // Rename index to Index
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
@@ -62,18 +52,17 @@ function Index() {
           style={{ x: x1 }}
           className={`md:w-[120vw] md:left-[-10vw] sm:left-[-15vw] left-[-25vw] w-[50rem] ${styles.slider}`}
         >
-          {slider1.map((project, index) => {
+          {slider1.map((art, index) => {
             return (
               <div
                 key={index}
-                className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.project}`}
-                style={{ backgroundColor: project.color }}
+                className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.art}`}
               >
                 <div className={styles.imageContainer}>
                   <Image
                     fill={true}
-                    alt={"image"}
-                    src={`/images/${project.src}`}
+                    alt={"reoarts"}
+                    src={`/assets/arts/${art.src}`}
                   />
                 </div>
               </div>
@@ -85,18 +74,17 @@ function Index() {
         style={{ x: x2 }}
         className={`md:w-[120vw] md:left-[-10vw] left-[-10vw] sm:left-[10vw] w-[50rem] ${styles.slider}`}
       >
-        {slider2.map((project, index) => {
+        {slider2.map((art, index) => {
           return (
             <div
               key={index}
-              className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.project}`}
-              style={{ backgroundColor: project.color }}
+              className={`h-[50vh] w-[50vw] md:w-[25%] md:h-[50vh] lg:h-[70vh] ${styles.art}`}
             >
               <div key={index} className={styles.imageContainer}>
                 <Image
                   fill={true}
-                  alt={"image"}
-                  src={`/images/${project.src}`}
+                  alt={"reoarts"}
+                  src={`/assets/arts/${art.src}`}
                 />
               </div>
             </div>
