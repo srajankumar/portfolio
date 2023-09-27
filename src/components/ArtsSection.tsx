@@ -1,4 +1,4 @@
-import SlidingImages from "@/components/SlidingImages";
+import SlidingImages from "@/utils/SlidingImages";
 import Linkk from "@/utils/Links";
 
 const ArtsSection = () => {
