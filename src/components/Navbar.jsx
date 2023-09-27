@@ -57,7 +57,7 @@ const Navbar = () => {
                 </g>
               </svg>
             </Link>
-            <Linkk href="/arts">
+            <Link smooth={true} duration={700} to="arts">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
@@ -73,7 +73,7 @@ const Navbar = () => {
                   d="M4 20h4L18.5 9.5a2.828 2.828 0 1 0-4-4L4 16v4m9.5-13.5l4 4"
                 />
               </svg>
-            </Linkk>
+            </Link>
             <Link smooth={true} duration={700} to="contact">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -126,12 +126,14 @@ const Navbar = () => {
             </button>
 
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
-              <Linkk
+              <Link
+                smooth={true}
+                duration={700}
                 className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
-                href="/arts"
+                to="arts"
               >
                 arts
-              </Linkk>
+              </Link>
             </button>
 
             <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
