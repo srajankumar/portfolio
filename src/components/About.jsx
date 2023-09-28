@@ -18,10 +18,10 @@ const resume = "srajan-resume.pdf";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center min-h-screen">
-      <div className="md:px-20 pb-5 lg:px-40 px-5 flex justify-center md:flex-row flex-col items-center">
-        <div className="min-h-96 w-full flex flex-col">
-          <div className=" px-7 text-justify text-lg rounded-3xl">
+    <div className="flex lg:px-[2%] md:px-0 flex-col justify-center min-h-screen">
+      <div className="md:px-20 pb-5 lg:px-28 px-7 flex justify-center md:flex-row flex-col items-center">
+        <div className="min-h-96 sm:px-2 md:px-0 w-full flex flex-col">
+          <div className="text-justify text-lg rounded-3xl">
             <h1 className="mb-5 font-gothamB text-4xl">
               <Header content="About." />
             </h1>
@@ -56,7 +56,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="md:px-20 py-5 lg:px-48 px-5 w-full">
+      <div className="md:px-20 py-5 lg:px-28 px-7 w-full">
         <Fade>
           <Carousel
             autoplay="true"

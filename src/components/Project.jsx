@@ -45,10 +45,10 @@ const App = () => {
 
 const Project = ({ projects }) => {
   return (
-    <div>
-      <div className="lg:px-[10%] container flex items-center justify-center min-h-screen px-2 py-24 mx-auto">
+    <div className="lg:px-[2%] md:px-0">
+      <div className="lg:px-24 md:px-16 flex items-center justify-center min-h-screen px-2 py-24 mx-auto">
         <div className="flex flex-col w-fit">
-          <h1 className="mb-5 mx-5 md:mx-4 font-gothamB text-4xl">
+          <h1 className="mb-5 mx-5 md:mx-3.5 font-gothamB text-4xl">
             <Header content="Projects." />
           </h1>
           <div className="grid lg:grid-cols-3 md:grid-cols-2 md:justify-start justify-center w-fit">

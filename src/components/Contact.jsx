@@ -42,26 +42,28 @@ const Contact = () => {
   };
 
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="h-screen lg:px-[2%] md:px-0 flex items-center justify-center">
       <form
         onSubmit={handleSubmit}
-        className="flex justify-between w-full lg:mx-40 md:mx-14 flex-wrap"
+        className="flex justify-between w-full md:px-20 pb-5 lg:px-28 px-7 flex-wrap"
       >
-        <div className="md:w-1/2 font-gothamL px-14 md:pr-14 md:pl-0 md:mt-0 md:py-0 py-5 w-full flex flex-col justify-center">
+        <div className="md:w-1/2 font-gothamL sm:px-3 md:pr-14 md:pl-0 md:mt-0 md:py-0 py-5 w-full flex flex-col justify-center">
           <h1 className="mb-5 font-gothamB text-4xl">
             <Header content="Contact." />
-          </h1>
-          <div className="pb-0.5 tracking-wide">
-            <Slide bottom>Get in touch or shoot me an email directly on</Slide>
-          </div>
+          </h1>{" "}
           <Slide bottom>
-            <Linkk
-              className="tracking-wide"
-              href="mailto:kumarsrajan02@gmail.com"
-              _blank="y"
-            >
-              kumarsrajan02@gmail.com
-            </Linkk>
+            <div className="pb-0.5 tracking-wide">
+              <span className="pr-1">
+                Get in touch or shoot me an email directly on{" "}
+              </span>
+              <Linkk
+                className="tracking-wide"
+                href="mailto:kumarsrajan02@gmail.com"
+                _blank="y"
+              >
+                kumarsrajan02@gmail.com
+              </Linkk>
+            </div>
           </Slide>
           <Fade>
             <div className="w-full">
@@ -200,7 +202,7 @@ const Contact = () => {
             </div>
           </Fade>
         </div>
-        <div className="w-full font-gothamM flex-col md:w-1/2 mt-0 md:mt-0 sm:mt-5 flex-wrap items-center rounded-lg px-6 md:px-0 flex relative">
+        <div className="w-full font-gothamM flex-col md:w-1/2 mt-5 md:mt-0 sm:mt-5 flex-wrap items-center rounded-lg md:px-0 flex relative">
           <div className=" flex-wrap w-full card bg-white backdrop-filter backdrop-blur-lg bg-opacity-5 rounded-xl px-9 md:px-10 py-10 md:p-10 flex h-fit flex-col md:mt-0 relative md:mx-auto">
             <div className="relative bg-transparent mb-6">
               <input

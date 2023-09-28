@@ -22,12 +22,12 @@ export default function Home() {
       <section id="project">
         <Project />
       </section>
-      <div id="arts">
-        <ArtsSection />
-      </div>
       <section id="contact">
         <Contact />
       </section>
+      {/* <div id="arts">
+        <ArtsSection />
+      </div> */}
       <div className="md:visible invisible md:py-0 py-3">
         <Footer />
       </div>

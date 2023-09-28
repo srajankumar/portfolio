@@ -57,7 +57,20 @@ const Navbar = () => {
                 </g>
               </svg>
             </Link>
-            <Link smooth={true} duration={700} to="arts">
+            <Link smooth={true} duration={700} to="contact">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="35"
+                height="35"
+                viewBox="0 0 12 12"
+              >
+                <path
+                  fill="currentColor"
+                  d="M5.561 2.551a.84.84 0 0 0-1.033-.514c-.973.3-1.653 1.135-1.507 2.101A8.656 8.656 0 0 0 4.092 7.18a8.807 8.807 0 0 0 2.083 2.445c.754.61 1.812.442 2.558-.258A.85.85 0 0 0 8.81 8.21l-.534-.653a.845.845 0 0 0-.91-.272l-1.232.39l-.215-.222a4.984 4.984 0 0 1-.706-.929a4.767 4.767 0 0 1-.446-1.079l-.083-.295l.95-.875a.863.863 0 0 0 .221-.935l-.293-.788Zm-1.327-1.47a1.84 1.84 0 0 1 2.264 1.121l.293.788a1.863 1.863 0 0 1-.48 2.019l-.49.451c.063.174.148.373.258.566c.11.19.238.363.355.504l.63-.2a1.845 1.845 0 0 1 1.985.593l.534.653a1.85 1.85 0 0 1-.166 2.52c-.994.933-2.617 1.32-3.87.306a9.806 9.806 0 0 1-2.32-2.722a9.656 9.656 0 0 1-1.195-3.393c-.24-1.593.903-2.806 2.202-3.205Z"
+                />
+              </svg>
+            </Link>
+            <Linkk href="arts">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="35"
@@ -73,20 +86,7 @@ const Navbar = () => {
                   d="M4 20h4L18.5 9.5a2.828 2.828 0 1 0-4-4L4 16v4m9.5-13.5l4 4"
                 />
               </svg>
-            </Link>
-            <Link smooth={true} duration={700} to="contact">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="35"
-                height="35"
-                viewBox="0 0 12 12"
-              >
-                <path
-                  fill="currentColor"
-                  d="M5.561 2.551a.84.84 0 0 0-1.033-.514c-.973.3-1.653 1.135-1.507 2.101A8.656 8.656 0 0 0 4.092 7.18a8.807 8.807 0 0 0 2.083 2.445c.754.61 1.812.442 2.558-.258A.85.85 0 0 0 8.81 8.21l-.534-.653a.845.845 0 0 0-.91-.272l-1.232.39l-.215-.222a4.984 4.984 0 0 1-.706-.929a4.767 4.767 0 0 1-.446-1.079l-.083-.295l.95-.875a.863.863 0 0 0 .221-.935l-.293-.788Zm-1.327-1.47a1.84 1.84 0 0 1 2.264 1.121l.293.788a1.863 1.863 0 0 1-.48 2.019l-.49.451c.063.174.148.373.258.566c.11.19.238.363.355.504l.63-.2a1.845 1.845 0 0 1 1.985.593l.534.653a1.85 1.85 0 0 1-.166 2.52c-.994.933-2.617 1.32-3.87.306a9.806 9.806 0 0 1-2.32-2.722a9.656 9.656 0 0 1-1.195-3.393c-.24-1.593.903-2.806 2.202-3.205Z"
-                />
-              </svg>
-            </Link>
+            </Linkk>
           </div>
         </nav>
       </div>
@@ -129,22 +129,20 @@ const Navbar = () => {
               <Link
                 smooth={true}
                 duration={700}
-                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 mr-5 cursor-pointer"
-                to="arts"
-              >
-                arts
-              </Link>
-            </button>
-
-            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
-              <Link
-                smooth={true}
-                duration={700}
                 className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 cursor-pointer"
                 to="contact"
               >
                 contact
               </Link>
+            </button>
+
+            <button className="focus:underline hover:underline underline-offset-4 focus:underline-offset-8">
+              <Linkk
+                className="transition duration-300 font-gothamB tracking-wide w-20 flex items-center justify-center px-10 cursor-pointer"
+                href="arts"
+              >
+                arts
+              </Linkk>
             </button>
           </div>
         </nav>
